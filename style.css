@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+.bioContent2 {
+    position: relative;
+    right: 100;
+    left:0;
+
+}
+=======
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /* Start of style for the header */
 * {
@@ -58,3 +66,4 @@ button:hover{
     text-align: center;
 }
 
+>>>>>>> ccee6303ae7d652ed0c0e65003e52a429a3a38fb
