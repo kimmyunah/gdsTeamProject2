@@ -50,6 +50,7 @@ button:hover{
 }
 /* End of Style for header */
 
+/* footer */
 .credits {
     position: fixed;
     left: 0;
@@ -57,4 +58,71 @@ button:hover{
     width: 100%;
     text-align: center;
 }
+/* end of footer */
 
+/* Start of SlideShow Style */
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+    height:100%;
+    animation: animate 10;
+}
+
+.slide{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.caption{
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    right: 60px;
+    padding: 30px;
+    background: #30302f;
+    box-sizing: border-box;
+}
+
+.caption p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+    font-family: "Monserrat", sans-serif;
+}
+
+.slide1{
+    background: url(slide\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slide2{
+    background: url(slide\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slide3{
+    background: url(slide\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slide4{
+    background: url(slide\ 4.jpg);
+    background-size: cover;
+    background-position: center;
+}
