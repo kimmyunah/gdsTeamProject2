@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 /* Start of style for the header */
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
-
 li, a, button {
     font-family: "Monserrat", sans-serif;
     font-weight: 500;
@@ -14,7 +12,6 @@ li, a, button {
     color: white;
     text-decoration: none;
 }
-
 header{
     display:flex;
     justify-content: space-between;
@@ -22,30 +19,24 @@ header{
     padding: 10px 10%;
     background-color: #30302f;
 }
-
 .logo{
     height:40px;
     cursor: pointer;
     /* margin-right: auto; */
 }
-
 .nav_bar_links{
     list-style: none;
 }
-
 .nav_bar_links li {
     display: inline-block;
     padding: 0px 20px;
 }
-
 .nav_bar_links li a {
     transition: all 0.3s ease 0s;
 }
-
 .nav_bar_links li a:hover{
     color: hsl(192, 100%, 50%);
 }
-
 button{
     padding: 9px 25px;
     background-color: hsl(192, 100%, 50%);
@@ -54,9 +45,16 @@ button{
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-
 button:hover{
     background-color: hsl(192, 100%, 10%);
 }
-
 /* End of Style for header */
+
+.credits {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
