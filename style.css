@@ -1,0 +1,13 @@
+.ctitle{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.info
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: medium;
+    border: green;
+}
