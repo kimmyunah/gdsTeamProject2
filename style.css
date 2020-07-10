@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+.bioContent2 {
+    position: relative;
+    right: 100;
+    left:0;
+
+}
+=======
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /* Start of style for the header */
 * {
@@ -59,6 +67,7 @@ button:hover{
     text-align: center;
 }
 
+<<<<<<< HEAD
 /* style for contact page */
 h1 {
     font-size: 35px;
@@ -102,3 +111,6 @@ h1 {
     width: 300px;
 }
 /* End of style for contact page */
+=======
+>>>>>>> ccee6303ae7d652ed0c0e65003e52a429a3a38fb
+>>>>>>> 89c6f1a016bff7c99f8477762d288cc665d747e0
