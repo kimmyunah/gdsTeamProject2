@@ -50,6 +50,7 @@ button:hover{
 }
 /* End of Style for header */
 
+
 .credits {
     position: fixed;
     left: 0;
@@ -58,3 +59,46 @@ button:hover{
     text-align: center;
 }
 
+/* style for contact page */
+h1 {
+    font-size: 35px;
+}
+
+.bioContent1 {
+    position: relative;
+    right: 0px;
+    border: none;
+    text-align: left;
+}
+
+.bioContent2 {
+    position: relative;
+    left: 0px;
+    border: none;
+    text-align: right;
+}
+
+.bio-jose {
+    width: 300px;
+}
+
+.bio-yunah {
+    width: 300px;
+}
+
+.bio-marilyn {
+    width: 300px;
+}
+
+.bio-estefani {
+    width: 300px; 
+}
+
+.bio-mayte {
+    width: 300px;
+}
+
+.bio-daniela {
+    width: 300px;
+}
+/* End of style for contact page */
