@@ -59,7 +59,10 @@ button:hover{
 }
 /* End of Style for header */
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5bc100903e27f98412900608b36168348df1148f
 /* Start of SlideShow Style */
 .slideshow{
     width: 100%;
@@ -177,10 +180,20 @@ button:hover{
     margin-bottom: 3%;
 }
 
+<<<<<<< HEAD
 
 
 
 .credits {
+=======
+/* Start of Style for Home Page Blog Post Previews */
+
+/* End of Style for Home Page Blog Post Previews */
+
+
+/* Start of Style for footer */
+.main_footer {
+>>>>>>> 5bc100903e27f98412900608b36168348df1148f
     position: fixed;
     left: 0;
     bottom: 0;
@@ -223,6 +236,10 @@ button:hover{
     color: white;
     padding: 13px;
 }
+<<<<<<< HEAD
+=======
+/* End of Style for footer */
+>>>>>>> 5bc100903e27f98412900608b36168348df1148f
 
 /* style for contact page */
 h1 {
