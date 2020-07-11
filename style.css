@@ -1,4 +1,12 @@
 
+
+.bioContent2 {
+    position: relative;
+    right: 100;
+    left:0;
+
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /* Start of style for the header */
 * {
@@ -52,6 +60,7 @@ button:hover{
 /* End of Style for header */
 
 /* footer */
+
 .credits {
     position: fixed;
     left: 0;
@@ -152,3 +161,47 @@ button:hover{
     margin-right: 15%;
     margin-bottom: 3%;
 }
+
+/* style for contact page */
+h1 {
+    font-size: 35px;
+}
+
+.bioContent1 {
+    position: relative;
+    right: 0px;
+    border: none;
+    text-align: left;
+}
+
+.bioContent2 {
+    position: relative;
+    left: 0px;
+    border: none;
+    text-align: right;
+}
+
+.bio-jose {
+    width: 300px;
+}
+
+.bio-yunah {
+    width: 300px;
+}
+
+.bio-marilyn {
+    width: 300px;
+}
+
+.bio-estefani {
+    width: 300px; 
+}
+
+.bio-mayte {
+    width: 300px;
+}
+
+.bio-daniela {
+    width: 300px;
+}
+/* End of style for contact page */
