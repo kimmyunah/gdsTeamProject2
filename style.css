@@ -59,15 +59,59 @@ button:hover{
 }
 /* End of Style for header */
 
+<<<<<<< HEAD
+/* Start of Style for footer */
+.main_footer {
+=======
 /* footer */
 
 .credits {
+>>>>>>> 5adbb63a083712727d5b79fdf366d5c6c7232aa7
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    background-color: #a8a8a8;
 }
+
+.upper_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_socials {
+    justify-content: space-around;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    margin: 5px 2px;
+}
+
+.fa {
+    padding: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: hsl(192, 100%, 50%);
+}
+
+.footer_copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: white;
+    padding: 13px;
+}
+<<<<<<< HEAD
+/* End of Style for footer */
+=======
 /* end of footer */
 
 
@@ -125,6 +169,7 @@ button:hover{
     padding: 1rem 3rem;
     font-family: "Monserrat", sans-serif;
 }
+>>>>>>> 5adbb63a083712727d5b79fdf366d5c6c7232aa7
 
 .slideText h5{
     font-size: 2rem;
