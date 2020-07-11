@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /* Start of style for the header */
 * {
@@ -60,69 +61,94 @@ button:hover{
 }
 /* end of footer */
 
-/* Start of SlideShow Style */
 
-.container{
-    position: relative;
+/* Start of SlideShow Style */
+.slideshow{
     width: 100%;
     height: 100vh;
+    position: relative;
     overflow: hidden;
 }
 
-.slider{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 500%;
-    height:100%;
-    animation: animate 10;
-}
-
 .slide{
-    position: relative;
-    width: 20%;
-    height: 100%;
-    float: left;
-}
-
-.caption{
+    width: inherit;
+    height: inherit;
     position: absolute;
-    bottom: 60px;
-    left: 60px;
-    right: 60px;
-    padding: 30px;
-    background: #30302f;
-    box-sizing: border-box;
+    animation: cycleImages 41s infinite;
+    opacity: 0;
 }
 
-.caption p{
-    margin: 0;
-    padding: 0;
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: zoom 41s infinite;
+}
+
+.slide:nth-child(1),
+.slide:nth-child(1) img{
+    animation-delay: 0s;
+}
+
+.slide:nth-child(2),
+.slide:nth-child(2) img{
+    animation-delay: 10s;
+}
+
+.slide:nth-child(3),
+.slide:nth-child(3) img{
+    animation-delay: 20s;
+}
+
+.slide:nth-child(4),
+.slide:nth-child(4) img{
+    animation-delay: 30s;
+}
+
+.slideText{
+    max-width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    font-size: 18px;
+    padding: 1rem 3rem;
     font-family: "Monserrat", sans-serif;
 }
 
-.slide1{
-    background: url(slide\ 1.jpg);
-    background-size: cover;
-    background-position: center;
+.slideText h5{
+    font-size: 1.6rem;
+    font-family: "Monserrat", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 150;
 }
 
-.slide2{
-    background: url(slide\ 2.jpg);
-    background-size: cover;
-    background-position: center;
+@keyframes cycleImages{
+    25%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
 }
 
-.slide3{
-    background: url(slide\ 3.jpg);
-    background-size: cover;
-    background-position: center;
+@keyframes zoom{
+    100%{
+        transform: scale(1.3);
+    }
 }
 
-.slide4{
-    background: url(slide\ 4.jpg);
-    background-size: cover;
-    background-position: center;
+/* For the Paragraphs of Home Page */
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');.homeIntro{
+    padding: 8px;
+    text-align: center;
+    color: #30302f;
+    font-size: 20px;
+    opacity: 65%;
+    font-family: 'Abel', sans-serif;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 3%;
 }
