@@ -1,18 +1,24 @@
-<<<<<<< HEAD
+/* contact form styling*/
+
 .ctitle{
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    padding-bottom: 20px;
+    color: black;
 }
-
 .info
 {
-    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: medium;
-    border: green;
+    font-family: 'Times New Roman', Times, serif;
 }
-=======
+
+.submitbutton
+{
+    color: #fff;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /* Start of style for the header */
 * {
@@ -32,7 +38,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
-    background-color: #30302f;
+    background-color: #30302F;
 }
 .logo{
     height:40px;
@@ -64,7 +70,6 @@ button:hover{
     background-color: hsl(192, 100%, 10%);
 }
 /* End of Style for header */
-
 .credits {
     position: fixed;
     left: 0;
@@ -72,5 +77,3 @@ button:hover{
     width: 100%;
     text-align: center;
 }
-
->>>>>>> ccee6303ae7d652ed0c0e65003e52a429a3a38fb
