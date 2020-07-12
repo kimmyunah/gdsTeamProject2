@@ -246,12 +246,6 @@ h1 {
     font-size: 20px;
 }
 
-.WorkWithUs {
-    position: relative;
-    border: none;
-    text-align: center;
-    font-size: 20px;
-}
 
 .bioContent1 {
     position: relative;
@@ -271,8 +265,9 @@ h1 {
 
 .bio-jose {
     width: 300px;
-    style: "float:right";
+    style="float:right"
 }
+
 
 .bio-yunah {
     width: 300px;
@@ -292,6 +287,13 @@ h1 {
 
 .bio-daniela {
     width: 300px;
+}
+
+.WorkWithUs {
+    position: relative;
+    border: none;
+    text-align: center;
+    font-size: 20px;
 }
 
 .footer_copyright {
