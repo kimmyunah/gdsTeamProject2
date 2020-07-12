@@ -250,6 +250,27 @@ h1 {
     font-size: 35px;
 }
 
+.WhyWeStarted {
+    position: relative;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Mission {
+    position: relative;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.WorkWithUs {
+    position: relative;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+}
+
 .bioContent1 {
     position: relative;
     right: 0px;
@@ -268,7 +289,7 @@ h1 {
 
 .bio-jose {
     width: 300px;
-    style="float:right"
+    style: "float:right";
 }
 
 .bio-yunah {
@@ -290,4 +311,17 @@ h1 {
 .bio-daniela {
     width: 300px;
 }
+
+.footer_copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: white;
+    padding: 13px;
+}
+
 /* End of style for contact page */
