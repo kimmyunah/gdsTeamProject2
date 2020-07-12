@@ -293,8 +293,8 @@ h1 {
 
 h1 span{
     position: absolute;
-    top: 170px;
-    left: 50px;
+    top: 145px;
+    left: 45px;
     font-size: 150px;
     letter-spacing: 2px;
     text-align: center;
@@ -308,7 +308,13 @@ h1 span{
 }
 
 .row:after{
-content:"";
-display: table;
-clear: both;
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.blogpic {
+    float: left;
+    width: 40%;
+    padding: 15px;
 }
