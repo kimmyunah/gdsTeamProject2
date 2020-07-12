@@ -1,5 +1,9 @@
 
-
+/*I added 2-6*/
+body {
+    padding: 20px;
+    background-color: lightgray;
+}
 .bioContent2 {
     position: relative;
     right: 100;
@@ -273,3 +277,26 @@ h1 {
     width: 300px;
 }
 /* End of style for contact page */
+
+/* Style for blog page */
+
+.title {
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+    width: 100%;
+}
+
+.title .background {
+    position: relative;
+    width: 100%
+}
+
+h1 span{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    font-size: 150px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #30302f;
+}
