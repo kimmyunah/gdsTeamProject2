@@ -440,14 +440,19 @@ h3 span {
 
 
     } 
+    .w3-quarter{
+        margin-bottom: 25%;
+    }
 }
 
 @media screen and (min-width: 361px) and (max-width: 480px){
-    
+    .w3-quarter{
+        margin-bottom: 20%;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 960px){
-    
+
 }
 
 @media screen and (min-width: 1024px){
