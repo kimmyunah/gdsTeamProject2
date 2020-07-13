@@ -225,13 +225,17 @@ body {
     text-align: center;
     color: white;
     object-fit: center;
+    display: inline-block;
+    width: 100%;
 }
 
 .centered {
     position: absolute;
+    z-index: 999;
+    margin: 0 auto;
     top: 40%;
-    left: 50%;
-    transform: translate(-40%,-50%);
+    left: 0;
+    right: 0;
     font-size: 60px;
     font-family: "monserrat", sans-serif;
     letter-spacing: .25rem;
@@ -239,9 +243,11 @@ body {
 
 .below {
     position: absolute;
-    top: 48%;
-    left: 52%;
-    transform: translate(-48%,-52%);
+    z-index: 999;
+    margin: 0 auto;
+    top: 60%;
+    left: 0;
+    right: 0;
     font-size: 30px;
     font-family: "monserrat", sans-serif;
 }
@@ -411,6 +417,7 @@ h3 span {
     header{
         justify-content: center;
         vertical-align: middle;
+        padding: 2px 2%;
     }
 
     .logo{
@@ -429,6 +436,7 @@ h3 span {
     button{
         padding: 0px 9px;
         margin-right: 45%;
+        font-size: 13px;
     }
 
     .readButton{
