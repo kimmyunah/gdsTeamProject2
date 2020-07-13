@@ -1,3 +1,22 @@
+/* contact form styling*/
+
+.ctitle{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 20px;
+    color: black;
+}
+.info
+{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.submitbutton
+{
+    color: #fff;
 
 .bioContent2 {
     position: relative;
@@ -25,7 +44,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
-    background-color: #30302f;
+    background-color: #30302F;
 }
 .logo{
     height:40px;
