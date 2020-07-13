@@ -285,7 +285,7 @@ h1 {
     position: relative;
     right: 0px;
     border: none;
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     margin-left: 1%;
     margin-right: 1%;
@@ -296,7 +296,7 @@ h1 {
     position: relative;
     left: 0px;
     border: none;
-    text-align: right;
+    text-align: center;
     font-size: 20px;
     margin-left: 1%;
     margin-right: 1%;
