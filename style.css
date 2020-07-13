@@ -314,7 +314,15 @@ h1 span{
 }
 
 .blogpic {
-    float: left;
-    width: 40%;
+    position: relative;
+    float: middle;
+    width: 80%;
     padding: 15px;
+}
+
+h3 span {
+    position: relative;
+    text-align: center;
+    font-size:30px;
+    
 }
