@@ -1,12 +1,9 @@
-<<<<<<< HEAD
-=======
 
 .bioContent2 {
     position: relative;
     right: 100;
     left:0;
 }
->>>>>>> f62527fd1b23054da300f594c5dc26a77cb5bc3f
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /* Start of style for the header */
 * {
@@ -345,3 +342,19 @@ h1 {
     padding: 13px;
 }
 /* End of style for contact page */
+
+@media screen and (max-width: 360px){
+
+}
+
+@media screen and (min-width: 361px) and (max-width: 480px){
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 960px){
+    
+}
+
+@media screen and (min-width: 1024px){
+    
+}
