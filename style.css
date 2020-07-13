@@ -1,3 +1,16 @@
+
+/*I added 2-6*/
+body {
+    padding: 20px;
+    background-color: lightgray;
+}
+.bioContent2 {
+    position: relative;
+    right: 100;
+    left:0;
+
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /* Start of style for the header */
 * {
@@ -308,6 +321,57 @@ h1 {
 .bio-daniela {
     width: 300px;
 }
+/* End of style for contact page */
+
+/* Style for blog page */
+
+.title {
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+    width: 100%;
+}
+
+.title .background {
+    position: relative;
+    width: 100%
+}
+
+h1 span{
+    position: absolute;
+    top: 145px;
+    left: 45px;
+    font-size: 150px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #30302f;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding:15px;
+}
+
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.blogpic {
+    position: relative;
+    float: middle;
+    width: 80%;
+    padding: 15px;
+}
+
+h3 span {
+    position: relative;
+    text-align: center;
+    font-size:30px;
+}
+
+/* End of style for blog page */
 
 .WorkWithUs {
     position: relative;
