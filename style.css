@@ -321,25 +321,9 @@ h1 {
 
 /* Style for blog page */
 
-.title {
-    font-family: "Courier New", Courier, monospace;
-    position: relative;
-    width: 100%;
-}
-
 .title .background {
     position: relative;
     width: 100%
-}
-
-h1 span{
-    position: absolute;
-    top: 145px;
-    left: 45px;
-    font-size: 150px;
-    letter-spacing: 2px;
-    text-align: center;
-    color: #30302f;
 }
 
 .column {
@@ -354,6 +338,11 @@ h1 span{
     clear: both;
 }
 
+@media screen and (max-width: 600px){
+    .column {
+        width: 100%;
+    }
+}
 .blogpic {
     position: relative;
     float: middle;
