@@ -410,6 +410,7 @@ h3 span {
     header{
         justify-content: center;
         vertical-align: middle;
+        padding: 2px 2%;
     }
 
     .logo{
@@ -428,6 +429,7 @@ h3 span {
     button{
         padding: 0px 9px;
         margin-right: 45%;
+        font-size: 13px;
     }
 
     .readButton{
