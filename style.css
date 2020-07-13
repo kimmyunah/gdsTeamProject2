@@ -1,9 +1,4 @@
 
-/*I added 2-6*/
-body {
-    padding: 20px;
-    background-color: lightgray;
-}
 .bioContent2 {
     position: relative;
     right: 100;
@@ -109,12 +104,14 @@ button:hover{
     padding: 1rem 3rem;
     font-family: "Monserrat", sans-serif;
 }
+
 .slideText h5{
     font-size: 2rem;
     font-family: "Monserrat", sans-serif;
     letter-spacing: 1px;
     font-weight: 150;
 }
+
 .titleBreak{
     font-size: 2rem;
     font-family: "Monserrat", sans-serif;
@@ -122,6 +119,7 @@ button:hover{
     font-weight: 150;
     text-align: center;
 }
+
 .readButton{
     position: relative;
     margin-top: 5%;
@@ -135,9 +133,7 @@ button:hover{
     font-size: 1.2rem;
     transition: all 0.3s ease 0s;
 } 
-/* .readButton:hover{
-    background-color: hsl(192, 100%, 24%);
-} */
+
 @keyframes cycleImages{
     25%{
         opacity: 1;
@@ -175,7 +171,7 @@ button:hover{
 .w3-quarter:hover {
     opacity: 0.85;
 }
-/* End of Style for Home Page Blog Post Previews */
+
 /* Start of Style for footer */
 /* implemented style choices to body so footer does not cover content at bottom of screen */
 body {
@@ -400,3 +396,59 @@ h3 span {
     padding: 13px;
 }
 /* End of style for contact page */
+
+@media screen and (max-width: 360px){
+    .slideText{
+        min-width: 100%;
+        padding: 2rem;
+        top: initial;
+        bottom: 0;
+        transform: initial;
+        text-align: center;
+    }
+    
+    header{
+        justify-content: center;
+        vertical-align: middle;
+    }
+
+    .logo{
+        height:30px;
+        cursor: pointer;
+    }
+    .nav_bar_links{
+        justify-content: center;
+        vertical-align: middle;
+    }
+    .nav_bar_links li {
+        display: inline-block;
+        padding: 1.5px 5px;
+    }
+
+    button{
+        padding: 0px 9px;
+        margin-right: 45%;
+    }
+
+    .readButton{
+        position: relative;
+        margin-top: 5%;
+        align-self: center;
+        padding: 2% 10%;
+        cursor: pointer;
+
+
+    } 
+}
+
+@media screen and (min-width: 361px) and (max-width: 480px){
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 960px){
+    
+}
+
+@media screen and (min-width: 1024px){
+    
+}
