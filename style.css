@@ -417,7 +417,7 @@ h3 span {
         vertical-align: middle;
     }
     .nav_bar_links li {
-        display: inline-block;
+        display: block;
         padding: 1.5px 5px;
     }
 
@@ -442,15 +442,92 @@ h3 span {
 }
 
 @media screen and (min-width: 361px) and (max-width: 480px){
+    .slideText{
+        min-width: 100%;
+        padding: 2rem;
+        top: initial;
+        bottom: 0;
+        transform: initial;
+        text-align: center;
+    }
+    
+    header{
+        justify-content: center;
+        vertical-align: middle;
+        padding: 2px 2%;
+    }
+
+    .logo{
+        height:30px;
+        cursor: pointer;
+    }
+    .nav_bar_links{
+        justify-content: center;
+    }
+    .nav_bar_links li {
+        display: block;
+        padding: 1.5px 15px;
+    }
+
+    button{
+        padding: 0px 9px;
+        margin-right: 45%;
+        font-size: 16px;
+    }
+
+    .readButton{
+        position: relative;
+        margin-top: 5%;
+        align-self: center;
+        padding: 2% 10%;
+        cursor: pointer;
+    } 
     .w3-quarter{
         margin-bottom: 20%;
     }
 }
 
 @media screen and (min-width: 481px) and (max-width: 960px){
-
-}
-
-@media screen and (min-width: 1024px){
+    .slideText{
+        min-width: 100%;
+        padding: 2rem;
+        top: initial;
+        bottom: 0;
+        transform: initial;
+        text-align: center;
+    }
     
+    header{
+        justify-content: space-between;
+        vertical-align: middle;
+        padding: 2px 2%;
+    }
+
+    .logo{
+        height:30px;
+        cursor: pointer;
+    }
+    .nav_bar_links{
+        justify-content: center;
+        vertical-align: middle;
+    }
+    .nav_bar_links li {
+        display: inline-block;
+        padding: 1.5px 15px;
+    }
+
+    button{
+        padding: 0px 16px;
+        margin-right: 45%;
+        font-size: 20;
+    }
+
+    .readButton{
+        position: relative;
+        margin-top: 5%;
+        align-self: normal;
+        padding: 2% 10%;
+        cursor: pointer;
+    } 
 }
+
